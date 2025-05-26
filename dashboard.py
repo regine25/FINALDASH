@@ -238,4 +238,8 @@ else:
         pd.read_excel(st.session_state["original_files"]["sections"]),
         pd.read_excel(st.session_state["original_files"]["subjects"])
     ])  # ✅ Preserve uploaded files
+# Add footer details similar to the uploaded schedule
+st.write("📌 **Prepared by:** MARIA LIBERTY F. ISIP, MBA (Programmer)")
+st.write("📌 **Dean:** LUISITO B. REYES, CBA, MBA")
+st.write("📌 **Approved by:** ENRIQUE G. BAKING, Ed.D. (SUC President III)")
 

@@ -239,4 +239,13 @@ else:
         pd.read_excel(st.session_state["original_files"]["subjects"])
     ])  # ✅ Preserve uploaded files
 
+import streamlit as st
+import streamlit_authenticator as stauth
+import yaml
+from yaml.loader import SafeLoader
 
+# Load authentication settings
+with open("config.yaml") as file:
+    config = yaml.load(file, Loader=SafeLoader)
+
+print(config)  # Check if the config loads properly

@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    Regine:
+      email: 2022305815@dhvsu.edu.com
+      name: Regine Pangilinan
+      password: Pangilinan_062502
+cookie:
+  key: secret_key
+  name: streamlit_auth
+preauthorized:
+  emails:
+    - 2022303022@dhvsu.edu.com
